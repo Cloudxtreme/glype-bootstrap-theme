@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <link rel="search" type="application/opensearchdescription+xml" title="WMan's Proxy" href="https://wman-web.fr/proxy/wmansproxy.xml">
+	<link rel="search" type="application/opensearchdescription+xml" title="WMan's Proxy" href="https://wman-web.fr/proxy/wmansproxy.xml">
     <meta charset="utf-8">
     <title><!--[site_name]--></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <!-- Le styles -->
-    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
-    <style>
+	<style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
+    <!-- Le styles -->
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -79,6 +78,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
 	<?=injectionJS();?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
 	<script>
 	$('#error').addClass('alert');
 	$('#error').addClass('alert-error');
